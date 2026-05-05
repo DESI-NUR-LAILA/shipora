@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    padding-top: 25px;
+}
+
+.header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 140px; /* Ukuran logo diperbesar */
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.header h4 {
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 14px;
+}
+
+td {
+    font-size: 14px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer td {
+    text-align: center;
+    font-size: 14px;
+    border: none;
+}
